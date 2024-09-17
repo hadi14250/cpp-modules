@@ -11,8 +11,6 @@
 
 <br>
 
-
-
 # cpp-modules
 
 Inspired by the core principles of object-oriented programming, this project delves into encapsulation, inheritance, polymorphism, and abstraction. We start with fundamental C++ concepts and progress to advanced topics, including templates and containers. Utilizes C++ features to create modular, scalable, and efficient applications.
@@ -22,7 +20,7 @@ Inspired by the core principles of object-oriented programming, this project del
 
 ## C++ Module Summaries
 
-- **cpp00**: Focuses on basic C++ concepts such as namespaces, classes, member functions, and standard I/O streams. It covers initialization lists, static and const members, and other foundational topics.
+- **cpp00**: Focuses on basic C++ concepts such as classes, member functions, and standard I/O streams. It covers initialization lists, static and const members, and other foundational topics.
 
 - **cpp01**: Explores memory allocation, pointers to member functions, and references. It also covers the use of the switch statement.
 
