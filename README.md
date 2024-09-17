@@ -1,15 +1,16 @@
 
 <div align="center">
 <a href="https://github.com/hadi14250">
-    <img src="github_gifs/cpp.gif" alt="3d cube" width="150" height="150">
+    <img src="github_gifs/cpp.gif" alt="c++ gif" width="150" height="150">
   </a>
-  <h3 align="center">C++ <odules</h3>
-  Dive deep into encapsulation, inheritance, polymorphism, and abstraction.
+  <h3 align="center">C++</h3>
+    Dive deep into encapsulation, inheritance, polymorphism, and abstraction.
   <br>
   <br>
 </div>
 
 <br>
+
 
 
 # cpp-modules
