@@ -13,31 +13,60 @@
 
 # cpp-modules
 
-Inspired by the core principles of object-oriented programming, this project delves into encapsulation, inheritance, polymorphism, and abstraction. We start with fundamental C++ concepts and progress to advanced topics, including templates and containers. Utilizes C++ features to create modular, scalable, and efficient applications.
+A progressive journey through modern C++ and object-oriented programming. Each module builds on the previous one, moving from the language fundamentals to advanced features such as templates, the STL, and generic programming. The goal is to write modular, scalable, and efficient C++ code while internalizing the four pillars of OOP: **encapsulation, inheritance, polymorphism,** and **abstraction**.
 
 <br>
 
-
 ## C++ Module Summaries
 
-- **cpp00**: Focuses on basic C++ concepts such as classes, member functions, and standard I/O streams. It covers initialization lists, static and const members, and other foundational topics.
+- **cpp00** — Namespaces, classes, member functions, stdio streams, initialization lists, static, and const. The starting point for everything that follows.
 
-- **cpp01**: Explores memory allocation, pointers to member functions, and references. It also covers the use of the switch statement.
+- **cpp01** — Memory allocation, pointers, references, pointers to member functions, and the switch statement. The mechanics of how C++ moves data around.
 
-- **cpp02**: Introduces ad-hoc polymorphism and operator overloading, along with the Orthodox Canonical Class Form. It emphasizes creating and managing classes with these features.
+- **cpp02** — Ad-hoc polymorphism, operator overloading, and the Orthodox Canonical Class Form (default constructor, copy constructor, copy assignment operator, destructor).
 
-- **cpp03**: Covers inheritance, including how to derive classes and manage base and derived relationships.
+- **cpp03** — Inheritance: building class hierarchies, deriving classes, and managing the relationship between base and derived types.
 
-- **cpp04**: Delves into subtype polymorphism, abstract classes, and interfaces, highlighting how to create and use these advanced class structures.
+- **cpp04** — Subtype polymorphism, abstract classes, and interfaces. Designing flexible class structures around virtual functions.
 
-- **cpp05**: Focuses on repetition constructs and exception handling, teaching how to handle errors and manage control flow.
+- **cpp05** — Repetition constructs and exception handling — throwing, catching, and recovering cleanly from errors.
 
-- **cpp06**: Introduces C++ casting techniques, including `static_cast`, `dynamic_cast`, `const_cast`, and `reinterpret_cast`.
+- **cpp06** — C++ casting: `static_cast`, `dynamic_cast`, `const_cast`, and `reinterpret_cast`, and when each one is the right tool.
 
-- **cpp07**: Covers C++ templates, including template classes and functions, and how to use them for generic programming.
+- **cpp07** — Templates: template functions, template classes, and the foundations of generic programming.
 
-- **cpp08**: Explores templated containers, iterators, and algorithms, emphasizing their use in standard template libraries.
+- **cpp08** — Templated containers, iterators, and algorithms — the building blocks of the STL.
 
-- **cpp09**: Focuses on the Standard Template Library (STL), including its various components and how to utilize them effectively.
+- **cpp09** — The Standard Template Library in practice: containers, algorithms, and idiomatic STL code.
+
+<br>
+
+## Repository Layout
+
+Each module lives in its own directory (`cpp-00` through `cpp-09`) and contains the exercises for that module. Every exercise has its own subdirectory with source files and a `Makefile`.
+
+```
+cpp-modules/
+├── cpp-00/
+├── cpp-01/
+├── ...
+└── cpp-09/
+```
+
+<br>
+
+## Building & Running
+
+Each exercise is self-contained. From inside an exercise directory:
+
+```sh
+make        # build
+./<binary>  # run
+make clean  # remove object files
+make fclean # remove object files and the binary
+make re     # full rebuild
+```
+
+The code targets the C++98 standard, in line with the 42 curriculum.
 
 <br>
